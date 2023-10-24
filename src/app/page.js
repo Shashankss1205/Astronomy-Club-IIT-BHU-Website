@@ -1,5 +1,8 @@
+import Header from "./Components/Header"
+
+
 export default function Home() {
   return (
-    <div className="flex items-center justify-center">Here We Go...</div>
+    <Header></Header>
   )
 }

@@ -51,6 +51,7 @@ const Header = () => {
                             </Link>
                       </div>
                       <div className='sm:hidden flex '>
+                              <Link href='/'>
                               <button onClick={()=>{
                                 setmenuState(!menuState);
                               }
@@ -58,37 +59,54 @@ const Header = () => {
                               }>
                                    <Image src={MenuIcon} alt='null' width={20} height={20} />
                              </button>
+                              </Link>
                       </div>
 
              </div>
        </div>
 
        {menuState ? (
-        <div className='h-[100vh] flex flex-col bg-white mt-[100px] justify-start items-center gap-[30px] sm:hidden '>
+        <div className='flex flex-col bg-white mt-[100px] justify-start items-center gap-[30px] sm:hidden '>
             <div>
                 <Link href='/pages/Home'>
-                    <button className='hover:font-bold transition-transform transform hover:scale-110 text-black'>
+                    <button onClick={()=>{
+                                setmenuState(!menuState);
+                              }
+                                      
+                              } className='hover:font-bold transition-transform transform hover:scale-110 text-black'>
                        Home
                     </button>
                 </Link> 
             </div> 
             <div>
                 <Link href='/pages/Blogs'>
-                    <button className='hover:font-bold transition-transform transform hover:scale-110 text-black'>
+                    <button onClick={()=>{
+                                setmenuState(!menuState);
+                              }
+                                      
+                              } className='hover:font-bold transition-transform transform hover:scale-110 text-black'>
                        Blogs
                     </button>
                 </Link> 
             </div> 
             <div>
                 <Link href='/pages/Activities'>
-                    <button className='hover:font-bold transition-transform transform hover:scale-110 text-black'>
+                    <button onClick={()=>{
+                                setmenuState(!menuState);
+                              }
+                                      
+                              } className='hover:font-bold transition-transform transform hover:scale-110 text-black'>
                        Activities
                     </button>
                 </Link> 
             </div> 
             <div>
                 <Link href='/pages/Gallery'>
-                    <button className='hover:font-bold transition-transform transform hover:scale-110 text-black'>
+                    <button onClick={()=>{
+                                setmenuState(!menuState);
+                              }
+                                      
+                              } className='hover:font-bold transition-transform transform hover:scale-110 text-black'>
                        Gallery
                     </button>
                 </Link>
