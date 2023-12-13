@@ -51,15 +51,15 @@ const Header = () => {
                             </Link>
                       </div>
                       <div className='sm:hidden flex '>
-                              <Link href='/'>
+                              
                               <button onClick={()=>{
                                 setmenuState(!menuState);
                               }
                                       
                               }>
-                                   <Image src={MenuIcon} alt='null' width={20} height={20} />
+                                   <Link href='/'><Image src={MenuIcon} alt='null' width={20} height={20} /></Link>
                              </button>
-                              </Link>
+                              
                       </div>
 
              </div>
