@@ -1,10 +1,15 @@
 import Header from "./Components/Header"
-import Footer from "./Components/Header"
 
-export default function Home() {
+import Home from "./pages/Home/Home"
+import Footer from "./Components/Footer"
+
+export default function page() {
   return (
-    <div>
-    <Header></Header>
-    <Footer></Footer>
-  </div>)
+    <>
+        <Header></Header>
+        <Home></Home>
+        <Footer></Footer>
+    </>
+  )
+
 }
