@@ -1,4 +1,5 @@
 import React from "react";
+
 // import AstroSVG from "../../images/astro";
 
 const Footer = () => {
@@ -71,3 +72,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
