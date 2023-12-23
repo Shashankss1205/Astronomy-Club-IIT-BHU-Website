@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 function Gallery({ images }) {
   return (
-    <div className="container px-5 py-10 mx-auto mb-10 ">
+    <div className="bg-black container px-5 py-10 mx-auto  ">
       <div className="flex flex-col text-center text-white w-full mb-10">
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black mt-4">
           Our camera roll
@@ -18,7 +18,7 @@ function Gallery({ images }) {
   lg: [&>img:not (:first-child)]=mt-8">
         {images.map((src, index) => (
           <div key={index} className="p-2">
-            <Image className='filter none hover:grayscale' 
+            <Image  
               src={src}
               alt={`Image ${index + 1}`}
               width={800}

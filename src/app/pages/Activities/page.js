@@ -6,7 +6,7 @@ import Activities from './Activities'
 const page = () => {
   return (
     <>
-       <Header></Header>
+
        <Activities></Activities>
        <Footer></Footer>
     </>

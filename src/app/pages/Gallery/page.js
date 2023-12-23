@@ -10,10 +10,9 @@ for (let i = 1; i <= 33; i++) {
 
 const page = () => {
   return (
-    <div>
-      <Header></Header>
+    <>
       <Gallery images={images}></Gallery>
-    </div>
+  
       <Footer></Footer>
     </>
 

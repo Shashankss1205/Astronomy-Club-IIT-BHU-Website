@@ -6,7 +6,6 @@ import Blogs from './Blogs'
 const page = () => {
   return (
     <>
-       <Header></Header>
        <Blogs></Blogs>
        <Footer></Footer>
     </>
