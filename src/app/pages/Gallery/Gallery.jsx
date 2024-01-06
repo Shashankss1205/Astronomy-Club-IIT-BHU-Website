@@ -7,7 +7,7 @@ function Gallery({ images }) {
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black mt-4">
           Our camera roll
         </h1>
-        <p className="lg:w-2/3 mx-auto leading-relaxed text-black">
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-white">
           This gallery contains pictures from our victories at
           Inter-IIT and different colleges, Alumni's meet, partying,
           orientations, workshops, and Astrophotography.
