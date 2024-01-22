@@ -19,9 +19,8 @@ export default function BlogCard(props) {
         setShowComponent(!showComponent);
     };
     return (
-        <div style={{marginTop : 50, marginInline: 50, justifyItems: 'center'}}>
-            
-            <button onClick={handleButtonClick}>
+        <div style={{marginTop : 50 }}>  
+            <button onClick={handleButtonClick} style={{display: "flex", justifyContent:'center'}}>
                 <Card sx={{
                     alignItems : 'center',
                     display: 'flex',

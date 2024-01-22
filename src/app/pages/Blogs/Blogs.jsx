@@ -19,7 +19,7 @@ const Blogs = () => {
   return (
     <div style={containerStyle}>
       <h1 style={headingStyle}>Our Blogs</h1>
-      <div className='flex flex-wrap justify-center gap-x-10 gap-y-10'>
+      <div className='flex flex-wrap justify-center gap-x-10 gap-y-10 align-center'>
         {blog_data.map((blog) => (
           <BlogCard
             title={blog.title}
