@@ -1,10 +1,10 @@
 import React from 'react'
-import Activities from './Activities'
+import BlogPage from './blog'
 
 const page = () => {
   return (
     <>
-      <Activities></Activities>
+       <BlogPage/>
     </>
   )
 }
