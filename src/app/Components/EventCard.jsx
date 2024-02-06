@@ -24,7 +24,6 @@ export default function EventCard(props) {
                     </Typography>
                 </CardContent>
             </CardActionArea>
-            
         </Card>
     );
 }

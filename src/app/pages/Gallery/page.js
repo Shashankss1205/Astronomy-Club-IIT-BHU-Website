@@ -12,8 +12,6 @@ const page = () => {
   return (
     <>
       <Gallery images={images}></Gallery>
-  
-      <Footer></Footer>
     </>
 
   )
