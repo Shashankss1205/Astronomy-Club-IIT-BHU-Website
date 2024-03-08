@@ -29,6 +29,13 @@ const Header = () => {
               </button>
             </Link>
           </div>
+          <div className='hidden lg:w-[120px] md:w-[100px] sm:w-[80px] w-[60px] sm:flex items-center justify-center '>
+            <Link href='/pages/YuriNight'>
+              <button className='hover:font-bold transition-transform transform hover:scale-110 text-white'>
+                Yuri's Night
+              </button>
+            </Link>
+          </div>
           <div className='hidden lg:w-[120px] md:w-[100px] sm:w-[80px] w-[60px] sm:flex items-center justify-center'>
             <Link href='/pages/Blogs'>
               <button className='hover:font-bold transition-transform transform hover:scale-110 text-white'>
@@ -75,6 +82,17 @@ const Header = () => {
 
               } className='hover:font-bold transition-transform transform hover:scale-110 text-black'>
                 Home
+              </button>
+            </Link>
+          </div>
+          <div>
+            <Link href='/pages/YuriNight'>
+              <button onClick={() => {
+                setmenuState(!menuState);
+              }
+
+              } className='hover:font-bold transition-transform transform hover:scale-110 text-black'>
+                Yuri's Night
               </button>
             </Link>
           </div>
